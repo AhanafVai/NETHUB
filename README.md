@@ -1,70 +1,90 @@
-# Getting Started with Create React App
+![NETHUB](https://user-images.githubusercontent.com/76809882/131345348-d4e81989-28bb-4cf7-9f6a-f9707d3d3ad2.png)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# NETHUB
 
-## Available Scripts
+An application to get info about your favourite shows and movies.
 
-In the project directory, you can run:
+## Demo
 
-### `npm start`
+Live Preview: https://net-hub.netlify.app
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Installation
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+To clone and run this application, you'll need
+[Git](https://github.com/git/git-scm.com)
+and [Node.js](https://nodejs.org/en/) (which comes with npm)
+installed on your computer. From your command line:
 
-### `npm test`
+```bash
+# Clone this repository
+$ git clone https://github.com/AhanafVai/NETHUB.git
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Go into the repository
+$ cd filename
 
-### `npm run build`
+# Install dependencies
+$ npm install
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Run the app
+$ npm start
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Feedback
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Want to contribute? Great!
 
-### `npm run eject`
+To fix a bug or enhance an existing module, follow these steps:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- Fork the repo 
+- Create a new branch (`git checkout -b 'improve-feature'`)
+- Make the appropriate changes in the files
+- Add changes to reflect the changes made
+- Commit your changes (`git commit -am 'Improve feature'`)
+- Push to the branch (`git push origin 'improve-feature'`)
+- Create a Pull Request
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Bug / Feature Request
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+If you find a bug (the website couldn't handle the query
+and / or gave undesired results),
+kindly open an issue [here](https://github.com/AhanafVai/NETHUB/issues)
+by including your search query and the expected result.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+If you'd like to request a new function, feel free
+to do so by opening
+an issue [here](https://github.com/AhanafVai/NETHUB/issues/new).
+Please include sample queries and their corresponding results.
 
-## Learn More
+## Features
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Get all our entertainment info in one place.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Key features
 
-### Code Splitting
+- SEO friendly.
+- Genres and Search filters.
+- Get Trending, Movies and TV Series infos including trailer, casts and short description.
+- Single Page Application.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+## Tech Stack
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+**Frontend:** `React` `CSS`
+`React-carousel`
+`Material UI` `Netfilfy`
 
-### Making a Progressive Web App
+**API:**  `TMDB API`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Acknowledgements
 
-### Advanced Configuration
+- [Roadside Coder](https://www.youtube.com/channel/UCIPZVAwDGa-A4ZJxCBvXRuQ)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+[MIT](https://choosealicense.com/licenses/mit/)
+|
+GitHub: [@AhanafVai](https://github.com/AhanafVai)
+|
+LinkedIn: [Ahanaf Abdullah](https://www.linkedin.com/in/ahanafabdullah9/)
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
