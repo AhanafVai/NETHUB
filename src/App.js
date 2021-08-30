@@ -1,24 +1,45 @@
-import logo from './logo.svg';
-import './App.css';
+import { Container } from "@material-ui/core";
+import React from "react";
+import { Helmet } from "react-helmet";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import "./App.css";
+import BottomNav from "./Components/BottomNav/BottomNav";
+import Header from "./Components/Header/Header";
+import Movies from "./Pages/Movies/Movies";
+import Search from "./Pages/Search/Search";
+import Series from "./Pages/Series/Series";
+import Trending from "./Pages/Trending/Trending";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header />
+      <Helmet>
+        <title>NETHUB</title>
+        <meta
+          name="description"
+          content="Get info of all your favorite TV Series and Movies"
+        />
+        <meta
+          name="keywords"
+          content="Movies, Tv Series, Search Movies,Search Tv Series"
+        />
+      </Helmet>
+      <Router>
+        <div className="app">
+          <Container>
+            <Switch>
+              <Route exact path="/" component={Trending} />
+              <Route path="/movies" component={Movies} />
+
+              <Route path="/series" component={Series} />
+              <Route path="/search" component={Search} />
+            </Switch>
+          </Container>
+        </div>
+        <BottomNav />
+      </Router>
+    </>
   );
 }
 

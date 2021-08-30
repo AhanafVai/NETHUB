@@ -1,0 +1,24 @@
+.trending {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.page-title {
+  font-size: 5.5vw;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+@media only screen and (min-width: 768px) {
+  .page-title {
+    font-weight: 300;
+    margin: 3rem 0;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .page-title {
+    font-weight: 200;
+    margin: 6rem 0;
+  }
+}
